@@ -51,39 +51,39 @@ if (proyecto_name == 'Samuel_Locks'){
   // ---------------------------------------------------- //
   // Límites geográficos de Samuel Locks
   // ---------------------------------------------------- //
-  var Area_preservacion_permanente = ee.FeatureCollection("users/ingperezescobar/Agri3/SamuelLocks/area_de_preservacao_permanente");
-  var Area_do_imovel = ee.FeatureCollection("users/ingperezescobar/Agri3/SamuelLocks/area_do_imovel");
-  var Cobertura_do_solo = ee.FeatureCollection("users/ingperezescobar/Agri3/SamuelLocks/cobertura_do_solo");
-  var Reserva_legal = ee.FeatureCollection("users/ingperezescobar/Agri3/SamuelLocks/reserva_legal");
+  var Area_preservacion_permanente = ee.FeatureCollection("users/ingperezescobar/Agri3/SamuelLocks/app");
+  var Area_do_imovel = ee.FeatureCollection("users/ingperezescobar/Agri3/SamuelLocks/farm");
+  var Cobertura_do_solo = ee.FeatureCollection("users/ingperezescobar/Agri3/SamuelLocks/LULC");
+  var Reserva_legal = ee.FeatureCollection("users/ingperezescobar/Agri3/SamuelLocks/RL");
 }
 
 if (proyecto_name == 'Scheffer'){
   // ---------------------------------------------------- //
   // Límites geográficos de Samuel Locks
   // ---------------------------------------------------- //
-  var Area_preservacion_permanente = ee.FeatureCollection("users/ingperezescobar/Agri3/Scheffer/area_de_presercacao_permanente");
-  var Area_do_imovel = ee.FeatureCollection("users/ingperezescobar/Agri3/Scheffer/area_do_imovel");
-  var Cobertura_do_solo = ee.FeatureCollection("users/ingperezescobar/Agri3/Scheffer/cobertura_do_solo");
-  var Reserva_legal = ee.FeatureCollection("users/ingperezescobar/Agri3/Scheffer/reserva_legal");
+  var Area_preservacion_permanente = ee.FeatureCollection("users/ingperezescobar/Agri3/Scheffer/app");
+  var Area_do_imovel = ee.FeatureCollection("users/ingperezescobar/Agri3/Scheffer/farm");
+  var Cobertura_do_solo = ee.FeatureCollection("users/ingperezescobar/Agri3/Scheffer/LULC");
+  var Reserva_legal = ee.FeatureCollection("users/ingperezescobar/Agri3/Scheffer/RL");
 }
 
 if (proyecto_name == 'SaoManoel'){
   // ---------------------------------------------------- //
   // Límites geográficos de Samuel Locks
   // ---------------------------------------------------- //
-  var Area_preservacion_permanente = ee.FeatureCollection("users/ingperezescobar/Agri3/SaoManoel/area_de_preservacao_permanente");
-  var Area_do_imovel = ee.FeatureCollection("users/ingperezescobar/Agri3/SaoManoel/area_do_imovel");
-  var Cobertura_do_solo = ee.FeatureCollection("users/ingperezescobar/Agri3/SaoManoel/cobertura_do_solo");
+  var Area_preservacion_permanente = ee.FeatureCollection("users/ingperezescobar/Agri3/SaoManoel/app");
+  var Area_do_imovel = ee.FeatureCollection("users/ingperezescobar/Agri3/SaoManoel/farm");
+  var Cobertura_do_solo = ee.FeatureCollection("users/ingperezescobar/Agri3/SaoManoel/RL");
 }
 
 if (proyecto_name == 'JCX'){
   // ---------------------------------------------------- //
   // Límites geográficos de JCX
   // ---------------------------------------------------- //
-  var Area_preservacion_permanente = ee.FeatureCollection("users/jhoanse/Agri3/JCX/Area_de_Preservacao_Permanente");
-  var Area_do_imovel = ee.FeatureCollection("users/jhoanse/Agri3/JCX/Area_do_Inmovel");
-  var Cobertura_do_solo = ee.FeatureCollection("users/jhoanse/Agri3/JCX/Cobertura_do_Solo");
-  var Reserva_legal = ee.FeatureCollection("users/jhoanse/Agri3/JCX/Reserva_Legal");
+  var Area_preservacion_permanente = ee.FeatureCollection("users/jhoanse/Agri3/JCX/app");
+  var Area_do_imovel = ee.FeatureCollection("users/jhoanse/Agri3/JCX/farm");
+  var Cobertura_do_solo = ee.FeatureCollection("users/jhoanse/Agri3/JCX/LULC");
+  var Reserva_legal = ee.FeatureCollection("users/jhoanse/Agri3/JCX/RL");
 }
 
 
